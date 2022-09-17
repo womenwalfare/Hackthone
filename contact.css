@@ -1,0 +1,35 @@
+
+
+section {
+    background-color: #f1f4f8;
+
+}
+
+.im{
+    width: 100vw;
+    height: 70vh;
+}
+
+.help{
+    font-size: 3rem;
+    color:antiquewhite;
+    
+}
+.para{
+    font-size: 2rem;
+    color:antiquewhite;
+   
+}
+
+h4{
+    font-size: x-large;
+    color:black;
+    text-transform: uppercase;
+}
+
+.NGO-header{
+    position:relative ;
+    overflow: hidden;
+  
+}
+
