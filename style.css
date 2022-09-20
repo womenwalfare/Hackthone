@@ -6,12 +6,17 @@
 }
 #eg
 {
-	display: flex;
-	flex-direction: row;
-	float: right;
-    border: solid 1px whitesmoke;
-
+   display: flex;
+	width: 100%;
+   border: solid 1px black;
+   background-color: yellow;
 }
+.form-check
+{
+	position: relative;
+	left: 1400px;
+}
+
 form.form-inline
 {
 	float: right;
@@ -21,15 +26,19 @@ form.form-inline
 .navbar
 {
 	position: absolute;
-	top: 30px;
+	top: 0px;
+	width: 100%;
+	background-color: skyblue;
 }
 .navbar ul
 {
 	border: solid 1px whitesmoke;
 	width: 100%;
+	background-color: coral;
 }
 .navbar ul li {
 	padding: 10px;
+	font-size: 1.5em;
 }
 .navbar-brand img
 {
@@ -37,6 +46,15 @@ form.form-inline
 	top: -45px;
 	border: solid 1px whitesmoke;
 	height: 78px;
+}
+
+#chat
+{
+	position: relative;
+	left: 1300px;
+	top: -120px;
+	cursor: pointer;
+
 }
 .carousel-item 
 {
@@ -53,6 +71,8 @@ form.form-inline
 {
 	width: 100%;
 	height: auto;
+	position: relative;
+   top: -65px;
 }
 .item
 {
@@ -63,6 +83,13 @@ form.form-inline
 {
 	height: 200px;
 	width: 70%;
+	position: relative;
+	top: -80px;
+}
+.header
+{
+	position: relative;
+	top: -70px;
 }
 .header h2
 {
@@ -84,12 +111,21 @@ form.form-inline
 {
 	display: flex;
 	flex-direction: row;
-	padding: 20px;
+	position: relative;
+	left: -1100px;
+	top: -100px;
+	width: 800px;
+
+}
+.images
+{
+	margin-left: 100px;
 }
 .images img
 {
-	border-radius: 50%;
+	border-radius: 50% 50%;
 	margin-left: 10px;
+	height: 140px;
 }
 .images p
 {
@@ -99,6 +135,23 @@ form.form-inline
 
 @media only screen and (max-width: 600px) {
 
+.form-check
+{
+	position: relative;
+	left: 0px;
+}
+.navbar
+{
+	height: auto;
+	overflow: hidden;
+}
+.navbar-brand img
+{
+	position: relative;
+	left: -80px;
+	top: -20px;
+	height: 60px;
+}
 .d-flex
 {
 	width: 100%;
@@ -111,12 +164,31 @@ form.form-inline
 	left: 0;
 	top: 0px;
 }
+#chat
+{
+	position: fixed;
+   left: 320px;
+   top: 750px;
+   z-index: 100000;
+}
+#myCarousel
+{
+	position: relative;
+	top: -40px;
+}
 .ics
 {
 	display: flex;
 	flex-direction: column;
-	border: solid;
-	overflow: hidden;
+	position: relative;
+	left: 0px;
+	top: 10px;
+	width: 100%;
+}
+.images 
+{
+	position: relative;
+	left: -70px;
 }
 .images img 
 {
@@ -132,3 +204,4 @@ form.form-inline
 
 
 }
+
