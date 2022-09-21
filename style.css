@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lato:wght@900&display=swap');
 *
 {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
 }
 #eg
 {
    display: flex;
 	width: 100%;
-   border: solid 1px black;
-   background-color: yellow;
+   background-color: whitesmoke;
 }
 .form-check
 {
@@ -22,23 +24,28 @@ form.form-inline
 	float: right;
 	position: relative;
 	top: 4px;
+	width: 100%;
 }
+
+
 .navbar
 {
 	position: absolute;
 	top: 0px;
 	width: 100%;
-	background-color: skyblue;
+	background-color: #cde1e7;
 }
 .navbar ul
 {
 	border: solid 1px whitesmoke;
 	width: 100%;
-	background-color: coral;
+	background-color: #3cd4ed;
 }
 .navbar ul li {
+	font-weight: bold;
 	padding: 10px;
-	font-size: 1.5em;
+	font-size: 1.1em;
+
 }
 .navbar-brand img
 {
@@ -50,11 +57,26 @@ form.form-inline
 
 #chat
 {
-	position: relative;
-	left: 1300px;
-	top: -120px;
+	position: fixed;
+	right: 70px;
+	top: 45px;
 	cursor: pointer;
+	z-index: 10000;
 
+}
+.carousel-caption
+{
+	border: solid black;
+	background-color: whitesmoke;
+	height: 50px;
+}
+.carousel-caption h3
+{
+   position: relative;
+   top: -30px;
+	color: #111;
+	font-weight: bold;
+	font-family: 'Bungee Spice', cursive;
 }
 .carousel-item 
 {
@@ -72,7 +94,7 @@ form.form-inline
 	width: 100%;
 	height: auto;
 	position: relative;
-   top: -65px;
+   top: -40px;
 }
 .item
 {
@@ -93,8 +115,33 @@ form.form-inline
 }
 .header h2
 {
-   text-align: center;
-   background: yellow;
+	font-size: 1.5em;
+	text-align: right;
+   background-color: whitesmoke;
+   animation: textslide 30s ease-in infinite;
+}
+@keyframes textslide
+{
+	0%
+	{
+          transform: translateX(0%);
+          left: 0;
+	}
+	25%
+	{
+		transform: translateX(-100%);
+      left: 100%;
+	}
+	75%
+	{
+		transform: translateX(-50%);
+      left: 50%;
+	}
+	100%
+	{
+          transform: translateX(0%);
+          left: 0;
+	}
 }
 .header h3
 {
@@ -105,7 +152,7 @@ form.form-inline
 	width: 30%;
 	position: relative;
 	left: 70%;
-	top: -286px;
+	top: -322px;
 }
 .ics
 {
@@ -201,6 +248,17 @@ form.form-inline
 	left: 22%;
 }
 
+.header h2
+{
+	height: 25p
+
+	x;
+	font-size: 1em;
+}
+.carousel-caption h3
+{
+	font-size: 1em;
+}
 
 
 }
