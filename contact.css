@@ -96,15 +96,6 @@ h4{
 }
 
 
-
-.carousel-caption h3
-{
-   position: relative;
-   top: -30px;
-	color: #111;
-	font-weight: bold;
-	font-family: 'Bungee Spice', cursive;
-}
 .carousel-item 
 {
    width: 100%;
