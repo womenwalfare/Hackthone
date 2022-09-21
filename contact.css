@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lato:wght@900&display=swap');
+
 *
 {
 	margin: 0;
@@ -37,7 +38,7 @@ form.form-inline
 .navbar ul
 {
 	width: 100%;
-	background-color: #3cd4ed;
+
 }
 .navbar ul li {
 	font-weight: bold;
@@ -49,7 +50,7 @@ form.form-inline
 {
 	position: relative;
 	top: -45px;
-	border: solid 1px whitesmoke;
+	
 	height: 78px;
 }
 
