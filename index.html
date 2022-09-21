@@ -1,194 +1,253 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Women Welfare Schemes Gujarat</title>
-  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Women Welfare Schemes Gujarat</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="eg">
+      <div class="form-check">
+        <label class="form-check-label" for="flexRadioDefault1">
+          <a href="">English</a> 
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label" for="flexRadioDefault2">
+          <a href="">Gujarati</a> 
+        </label>
+      </div>
+    </div>
 
-</head>
-<body>
-<div id="eg">
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-  <label class="form-check-label" for="flexRadioDefault1">
-    English
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-  <label class="form-check-label" for="flexRadioDefault2">
-    Gujarati
-  </label>
-</div>
-</div>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"
+        ><img
+          src="logo.jpeg"
+          width="140px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<nav class="navbar navbar-expand-lg ">
-  <a class="navbar-brand" href="#"><img src="https://www.worldgirlsportal.com/wp-content/uploads/2020/02/government-gujarat-gandhinagar.jpg" width="140px"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Geographic Map
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"></a>
+              <a class="dropdown-item" href="NGO.html">NGOs</a>
+              <a class="dropdown-item" href="Gov_offices.html"
+                >District Office</a
+              >
+            </div>
+          </li>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="services.html">Services</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Geographic Map
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#"></a>
-          <a class="dropdown-item" href="NGO.html">NGOs</a>
-          <a class="dropdown-item" href="Gov_offices.html">District Office</a>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="help.html">Help</a>
+          </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+            id="wsite"
+            onkeyup="SearchingInput()"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <br />
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img
+            src="slide1.jpeg"
+            class="d-block w-100"
+            alt="Mission Sakti Women Walfare Scheme"
+            style="width: 100%; height: 400px"
+          />
+          <div class="carousel-caption">
+            <h3>Mission Sakti Women Walfare Scheme</h3>
+          </div>
         </div>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-     
 
-    </ul>
-     
+        <div class="item">
+          <img
+            src="slide2.jpg"
+            class="d-block w-100"
+            alt="Vahali Dikari Yojana"
+            style="width: 100%; height: 400px"
+          />
+          <div class="carousel-caption">
+            <h3>Vahali Dikari Yojana</h3>
+          </div>
+        </div>
 
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="wsite" onkeyup="SearchingInput()">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-
-  </div>
-
-</nav>
-<img src="chat.png" id="chat">
-<br>
-
-
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="slide1.jpeg" class="d-block w-100" alt="Los Angeles" style="width:100%; height: 400px;">
-         <div class="carousel-caption">
-          <h3>Mission Sakti Women Walfare Scheme</h3>
-    
+        <div class="item">
+          <img
+            src="slide3.jpeg"
+            class="d-block w-100"
+            alt="Empowered Women , Empowered Family"
+            style="width: 100%; height: 400px"
+          />
+          <div class="carousel-caption">
+            <h3>Empowered Women , Empowered Family</h3>
+          </div>
         </div>
       </div>
 
-      <div class="item">
-        <img src="slide2.jpg" class="d-block w-100
-" alt="Chicago" style="width:100%; height: 400px;">
-        <div class="carousel-caption">
-          <h3>Vahali Dikari Yojana</h3>
-        </div>
-      </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
-    
-      <div class="item">
-        <img src="slide3.jpeg" class="d-block w-100" alt="New york" style="width:100%; height: 400px;">
-        <div class="carousel-caption">
-          <h3>Empowered Women , Empowered Family </h3>
-    
+    <div class="header">
+      <h2>Goverment Of Gujarat Introduce a Women Welfare Schemes</h2>
+      <h3>Women & Child Development Department</h3>
+    </div>
+    <div class="d-flex p-2">
+      <p>
+        Government of Gujarat has implemented many welfare schemes for women in
+        the State. All the schemes fall under the various departments.
+        <br />Each scheme has different criteria for selections of
+        beneficiaries.<br />
+        A dedicated website where all departments’ women related updated schemes
+        and beneficiaries (segregated) information available for citizen is
+        needed. <br />Information regarding brief description, target, type of
+        benefits, district level contact person, address of office and eligible
+        beneficiary criteria etc can be added.<br />
+        If such problems are resolved on the digital platform, it could help to
+        promote women welfare schemes and bring awareness across the State.
+      </p>
+    </div>
+
+    <div class="list-group">
+      <button
+        type="button"
+        class="list-group-item list-group-item-action active"
+      >
+        Latest Update
+      </button>
+      <button type="button" class="list-group-item list-group-item-action">
+        Comprehensive information about the work to empower India’s Nari Shakti.
+        #8YearsOfWomenEmpowerment
+      </button>
+      <button type="button" class="list-group-item list-group-item-action">
+        Beti Bachao Beti Padhao, Ujjwala Yojana
+      </button>
+      <button type="button" class="list-group-item list-group-item-action">
+        Pradhan Mantri Ujjwala Yojana (PMUY)
+      </button>
+      <button
+        type="button"
+        class="list-group-item list-group-item-action"
+        disabled
+      >
+        Mahila E-Haat
+      </button>
+      <button type="button" class="list-group-item list-group-item-action">
+        Mahila Shakti Kendras
+      </button>
+      <button
+        type="button"
+        class="list-group-item list-group-item-action"
+        disabled
+      >
+        National Creche Scheme
+      </button>
+
+      <div class="ics">
+        <div class="images">
+          <img
+            src="https://images.news18.com/ibnlive/uploads/2022/08/narendra-modi-reuters.jpg"
+            width="140px"
+          />
+          <p>Narendra Modi PM</p>
+        </div>
+
+        <div class="images">
+          <img
+            src="https://images.news18.com/ibnlive/uploads/2021/09/bhupendra-patel-cm.jpg"
+            width="140px"
+          />
+          <p>Bhupendra Patel CM</p>
+        </div>
+
+        <div class="images">
+          <img src="ss.jpg" width="140px" />
+          <p>Smt. Manishaben Vakil</p>
         </div>
       </div>
     </div>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2022 Copyright:
+      <a class="text-white" href="https://Women & Child Development Department/"
+        >Women & Child Development Department</a
+      >
+    </div>
 
-
-<div class="header">
-<h2>Goverment Of Gujarat Introduce a Women Welfare Schemes</h2>
-<h3>Women & Child Development Department</h3>
-</div>
-<div class="d-flex p-2">
-
-  <p>Government of Gujarat has implemented many welfare schemes for
-women in the State. All the schemes fall under the various
-departments. <br>Each scheme has different criteria for selections of
-beneficiaries.<br> A dedicated website where all departments’ women
-related updated schemes and beneficiaries (segregated) information
-available for citizen is needed.
-<br>Information regarding brief description, target, type of benefits,
-district level contact person, address of office and eligible beneficiary
-criteria etc can be added.<br>
-If such problems are resolved on the digital platform, it could help to
-promote women welfare schemes and bring awareness across the
-State.</p>
-
-
-
-</div>
-
-
-<div class="list-group">
-  <button type="button" class="list-group-item list-group-item-action active">
-    Latest Update
-  </button>
-  <button type="button" class="list-group-item list-group-item-action">Comprehensive information about the work to empower India’s Nari Shakti. #8YearsOfWomenEmpowerment</button>
-  <button type="button" class="list-group-item list-group-item-action">Beti Bachao Beti Padhao, Ujjwala Yojana</button>
-  <button type="button" class="list-group-item list-group-item-action">Pradhan Mantri Ujjwala Yojana (PMUY)</button>
-  <button type="button" class="list-group-item list-group-item-action" disabled>Mahila E-Haat</button>
-  <button type="button" class="list-group-item list-group-item-action"> Mahila Shakti Kendras</button>
-  <button type="button" class="list-group-item list-group-item-action" disabled>National Creche Scheme</button>
-
-<div class="ics">
-  <div class="images">
-  <img src="https://images.news18.com/ibnlive/uploads/2022/08/narendra-modi-reuters.jpg" width="140px">
-  <p>Narendra Modi PM</p>
-</div>
-
-<div class="images">
-  <img src="https://images.news18.com/ibnlive/uploads/2021/09/bhupendra-patel-cm.jpg" width="140px">
-  <p>Bhupendra Patel CM</p>
-</div>
-
-<div class="images">
-  <img src="ss.jpg" width="140px">
-  <p>Smt. Manishaben Vakil</p>
-</div>
-</div>
-
-</div>
-
-
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2022 Copyright:
-    <a class="text-white" href="https://Women & Child Development Department/">Women & Child Development Department</a>
-  </div>
-
-
-
-
-
-<script type="text/javascript">
- 
-</script>
-</body>
+    <script type="text/javascript">
+    </script>
+  </body>
 </html>

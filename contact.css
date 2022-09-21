@@ -36,7 +36,6 @@ form.form-inline
 }
 .navbar ul
 {
-	border: solid 1px whitesmoke;
 	width: 100%;
 	background-color: #3cd4ed;
 }
@@ -54,15 +53,6 @@ form.form-inline
 	height: 78px;
 }
 
-#chat
-{
-	position: fixed;
-	right: 70px;
-	top: 45px;
-	cursor: pointer;
-	z-index: 10000;
-
-}
 
 section , .bg {
     background-color: #f1f4f8;
