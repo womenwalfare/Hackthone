@@ -3,6 +3,9 @@
 @import "compass/css3";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 
+
+
+
 html {
   box-sizing: border-box;
   height: 100%;
@@ -22,6 +25,66 @@ body{
   line-height: 1.5;
   padding: 2.5em 0;
 }
+
+
+#eg
+{
+   display: flex;
+	width: 100%;
+   background-color: whitesmoke;
+}
+.form-check
+{
+	position: relative;
+	left: 1400px;
+}
+
+form.form-inline
+{
+	float: right;
+	position: relative;
+	top: 4px;
+	width: 100%;
+}
+
+
+.navbar
+{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	background-color: #cde1e7;
+}
+.navbar ul
+{
+	border: solid 1px whitesmoke;
+	width: 100%;
+	background-color: #3cd4ed;
+}
+.navbar ul li {
+	font-weight: bold;
+	padding: 10px;
+	font-size: 1.1em;
+
+}
+.navbar-brand img
+{
+	position: relative;
+	top: -45px;
+	border: solid 1px whitesmoke;
+	height: 78px;
+}
+
+#chat
+{
+	position: fixed;
+	right: 70px;
+	top: 45px;
+	cursor: pointer;
+	z-index: 10000;
+
+}
+
 .container {
   margin: 0 auto;
   width: 90%;
