@@ -40,10 +40,10 @@ body{
   text-align: center;
   transition: all .2s ease-in-out;
   
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 400px) {
     & {
       float: left;
-      width: 50%;
+      width: 40%;
     }
     &:nth-child(odd) {
       clear: left;
@@ -62,7 +62,7 @@ body{
     }    
   }
   
-  @media screen and (min-width: 1120px) {
+  @media screen and (min-width: 1000px) {
     & {
        width: 20%;
     }
